@@ -1,5 +1,5 @@
 # Yelp Reviews Project
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/acolocho/python_practice_projects/main/invest_paying_debt/app.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/acolocho/yelp_reviews/app/app.py)
 
 This project seeks to build a model that can succesfully classify a yelp review into one of four categories. Due to major class imbalance, 3 categories were combined into one to make a binary model. Therefore, the scope of the project was reframed to seek to classify if a yelp review would receive a star or not.
 
