@@ -20,7 +20,7 @@ st.text(evaluate_text(data))
 # Background
 The dataset contained over 7 million Yelp reviews, and it suffered from major class imbalances. The following chart represents a 10,000 review sample.
 '''
-st.image('photos/chart1.png')
+st.image('app/photos/chart1.png')
 
 '''
 Originally, this project seeked to classify Yelp reviews in one of four buckets which were stars, useful, cool, or funny. However, the approach was
