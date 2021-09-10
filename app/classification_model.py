@@ -9,10 +9,10 @@ class Model:
         
     
     def load_model(self):
-        self.model = pickle.load(open('/Users/alejandro/Documents/Coding/ML/yelp_reviews/app/model_3.pkl', 'rb'))
+        self.model = pickle.load(open('model_3.pkl', 'rb'))
     
     def load_vect(self):
-        self.vect = pickle.load(open('/Users/alejandro/Documents/Coding/ML/yelp_reviews/app/vect_model_3.pkl','rb'))
+        self.vect = pickle.load(open('vect_model_3.pkl','rb'))
     
     def predict(self, data:list):
         processed_data = self.vect.transform(data)
